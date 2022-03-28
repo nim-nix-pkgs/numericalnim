@@ -11,6 +11,7 @@
   inputs.src-numericalnim-master.ref   = "refs/heads/master";
   inputs.src-numericalnim-master.owner = "SciNim";
   inputs.src-numericalnim-master.repo  = "numericalnim";
+  inputs.src-numericalnim-master.dir   = "";
   inputs.src-numericalnim-master.type  = "github";
   
   inputs."arraymancer".owner = "nim-nix-pkgs";

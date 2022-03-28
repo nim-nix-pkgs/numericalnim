@@ -11,6 +11,7 @@
   inputs.src-numericalnim-v0_7_1.ref   = "refs/tags/v0.7.1";
   inputs.src-numericalnim-v0_7_1.owner = "SciNim";
   inputs.src-numericalnim-v0_7_1.repo  = "numericalnim";
+  inputs.src-numericalnim-v0_7_1.dir   = "";
   inputs.src-numericalnim-v0_7_1.type  = "github";
   
   inputs."arraymancer".owner = "nim-nix-pkgs";
