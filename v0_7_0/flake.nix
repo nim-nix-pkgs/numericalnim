@@ -21,13 +21,13 @@
   inputs."arraymancer".inputs.nixpkgs.follows = "nixpkgs";
   inputs."arraymancer".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github.com/hugogranstrom/cdt".owner = "nim-nix-pkgs";
-  inputs."github.com/hugogranstrom/cdt".ref   = "master";
-  inputs."github.com/hugogranstrom/cdt".repo  = "github.com/hugogranstrom/cdt";
-  inputs."github.com/hugogranstrom/cdt".dir   = "";
-  inputs."github.com/hugogranstrom/cdt".type  = "github";
-  inputs."github.com/hugogranstrom/cdt".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/hugogranstrom/cdt".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-hugogranstrom-cdt".owner = "nim-nix-pkgs";
+  inputs."github-hugogranstrom-cdt".ref   = "master";
+  inputs."github-hugogranstrom-cdt".repo  = "github-hugogranstrom-cdt";
+  inputs."github-hugogranstrom-cdt".dir   = "master";
+  inputs."github-hugogranstrom-cdt".type  = "github";
+  inputs."github-hugogranstrom-cdt".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-hugogranstrom-cdt".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
