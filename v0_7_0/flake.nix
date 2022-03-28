@@ -11,7 +11,6 @@
   inputs.src-numericalnim-v0_7_0.ref   = "refs/tags/v0.7.0";
   inputs.src-numericalnim-v0_7_0.owner = "SciNim";
   inputs.src-numericalnim-v0_7_0.repo  = "numericalnim";
-  inputs.src-numericalnim-v0_7_0.dir   = "";
   inputs.src-numericalnim-v0_7_0.type  = "github";
   
   inputs."arraymancer".owner = "nim-nix-pkgs";
@@ -21,6 +20,14 @@
   inputs."arraymancer".type  = "github";
   inputs."arraymancer".inputs.nixpkgs.follows = "nixpkgs";
   inputs."arraymancer".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/hugogranstrom/cdt".owner = "nim-nix-pkgs";
+  inputs."github.com/hugogranstrom/cdt".ref   = "master";
+  inputs."github.com/hugogranstrom/cdt".repo  = "github.com/hugogranstrom/cdt";
+  inputs."github.com/hugogranstrom/cdt".dir   = "";
+  inputs."github.com/hugogranstrom/cdt".type  = "github";
+  inputs."github.com/hugogranstrom/cdt".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/hugogranstrom/cdt".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
