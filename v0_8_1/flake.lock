@@ -312,7 +312,7 @@
         "flakeNimbleLib": "flakeNimbleLib",
         "github-hugogranstrom-cdt": "github-hugogranstrom-cdt",
         "nixpkgs": "nixpkgs",
-        "src-numericalnim-master": "src-numericalnim-master"
+        "src-numericalnim-v0_8_1": "src-numericalnim-v0_8_1"
       }
     },
     "src-arraymancer-v0_7_15": {
@@ -434,19 +434,19 @@
         "type": "github"
       }
     },
-    "src-numericalnim-master": {
+    "src-numericalnim-v0_8_1": {
       "flake": false,
       "locked": {
-        "lastModified": 1665127726,
-        "narHash": "sha256-VwD9K+7G5Ar3XxGBBrokh90ZDg4t2I/P3xNfoj+xnkQ=",
+        "lastModified": 1664443423,
+        "narHash": "sha256-5Kyyj7Osx+8UbkRE9OZz2j/dZptIcr+Q90tYrUXm/v8=",
         "owner": "SciNim",
         "repo": "numericalnim",
-        "rev": "a3e8cf0d86cdde93d5d4fdb60ecb8408151a157d",
+        "rev": "278353f7013f85ddb1f8fab572b6e9ac331bae1a",
         "type": "github"
       },
       "original": {
         "owner": "SciNim",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.8.1",
         "repo": "numericalnim",
         "type": "github"
       }
